@@ -8,7 +8,13 @@
 2. 纯原生模块化（web components），不需要学习 react / vue 即可将庞大的 html 分解为若干模块
 3. 提供了常用前端的解决方案（组件化、通信、数据绑定等）
 4. 提供了基础组件： 蒙版<components-mask>，消息<message>，图标<icon>
-5. 调整了打包，打包后仅一行 html，且提供了 cpp 可调用的文件
+5. 调整了打包，打包后 **仅一行 html，且提供了 cpp 可调用的文件**，例
+
+```js
+    String htmlString = "<!doctype html><html lang=en> ....省略了若干字"; // 打包后可以把一整个项目变成这一行来供 cpp 使用
+    server.send(200, "text/html", htmlString); // 服务，启动！
+```
+
 6. 由于使用了原生特性，可以兼容进任意框架（react、vue 等）项目
 
 ## 项目使用（依赖于 node）
@@ -17,5 +23,6 @@
 2. 项目运行：pnpm run dev
 3. 项目打包：pnpm run build，打包的文件可以在 dist 文件夹中找到
 
-## 项目实例（经过了2次开发）
+## 项目实例（经过了 2 次开发）
+
 ![141724299165_ pic](https://github.com/user-attachments/assets/5dca9a00-9c5c-4999-8f06-916bb1da21ba)
