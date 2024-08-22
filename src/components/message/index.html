@@ -1,0 +1,26 @@
+<style>
+  .wrapper {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 50px;
+    left: 0;
+    right: 0;
+    transition: 100ms;
+  }
+  .text {
+    /* background-color: blue; */
+    padding: 10px 20px;
+    border: 1px rgb(229, 230, 235) solid;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    max-width: 80%;
+    color: rgb(29, 33, 41);
+    background-color: white;
+  }
+</style>
+<div class="wrapper">
+  <div class="text">
+    <slot></slot>
+  </div>
+</div>
