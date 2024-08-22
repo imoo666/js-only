@@ -26,3 +26,7 @@
 ## 项目实例（经过了二次开发）
 
 ![141724299165_ pic](https://github.com/user-attachments/assets/5dca9a00-9c5c-4999-8f06-916bb1da21ba)
+
+## 原理介绍
+
+https://juejin.cn/post/7405531068662562826
