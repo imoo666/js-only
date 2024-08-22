@@ -16,3 +16,6 @@
 1. 项目依赖安装：pnpm i
 2. 项目运行：pnpm run dev
 3. 项目打包：pnpm run build，打包的文件可以在 dist 文件夹中找到
+
+## 项目实例（经过了2次开发）
+![141724299165_ pic](https://github.com/user-attachments/assets/5dca9a00-9c5c-4999-8f06-916bb1da21ba)
